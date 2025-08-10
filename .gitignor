@@ -1,0 +1,73 @@
+### Системные файлы ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+### IDE и редакторы ###
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### Зависимости ###
+# Node.js
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+
+# Frontend-специфичные
+dist/
+build/
+.next/
+.out/
+.cache/
+.turbo/
+
+### Логи и временные файлы ###
+*.log
+*.tmp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+### Скомпилированные файлы ###
+*.class
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.out
+*.app
+
+### Файлы окружения ###
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+**/.env
+
+### Данные и дампы ###
+*.sql
+*.sqlite
+*.dump
+*.db
+
+### Автогенерируемые файлы ###
+*.css.map
+*.scssc
+*.aux
+*.toc
+
+### Frontend-артефакты ###
+.nextflow/
+.nuxt/
+.vuepress/dist/
+.svelte-kit/

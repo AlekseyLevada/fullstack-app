@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "This is fullstack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseyLevada/fullstack-app.git"
+  },
+  "keywords": [],
+  "author": "Alksey Levada",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlekseyLevada/fullstack-app/issues"
+  },
+  "homepage": "https://github.com/AlekseyLevada/fullstack-app#readme"
+}
