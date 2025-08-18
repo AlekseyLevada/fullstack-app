@@ -15,7 +15,7 @@ export class AuthService {
   async register(registerDto: RegisterDto): Promise<TokenResponseDto> {
     const hashedPassword = await bcrypt.hash(registerDto.password, 10)
     const user = await this.userService.create({ ...registerDto, password: hashedPassword })
-    const token = this.jwtService.sign({ email: user.email, sub: user.id })
+    const token = this.jwtService.sign({ email: user.email, sub: user.id },{expiresIn: "1h"})
     return { access_token: token }
   }
 }
