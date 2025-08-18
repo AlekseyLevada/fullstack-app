@@ -1,11 +1,11 @@
 import { Schema, SchemaFactory, Prop } from "@nestjs/mongoose";
 import { Document } from 'mongoose'
 
-@Schema()
+@Schema({ timestamps: true })
 export class User extends Document {
 
   @Prop({ required: true, trim: true })
-  fistName: string
+  firstName: string
 
   @Prop({ required: true, trim: true })
   lastName: string
